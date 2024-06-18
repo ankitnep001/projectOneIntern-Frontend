@@ -6,10 +6,10 @@ interface IButton {
 const Button: React.FC<IButton> = ({ type, icon, buttonText }) => {
     return (
         <button
-            className="flex gap-x-1 rounded-md p-1"
+            className="flex items-center justify-center  rounded-md p-1 w-full"
             type={type}>
             {icon}
-            <span className="text-sm md:text-base lg:text-lg">{buttonText}</span>
+            <span className="text-sm md:text-base  ">{buttonText}</span>
         </button>
     )
 }

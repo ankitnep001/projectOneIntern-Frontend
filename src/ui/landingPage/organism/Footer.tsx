@@ -1,5 +1,6 @@
-import Logo from "@ui/common/molecules/Logo"
-import { Facebook, Instagram, Twitter } from "lucide-react"
+import Logo from "@ui/common/molecules/Logo";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+
 
 const Footer = () => {
     return (
@@ -41,10 +42,11 @@ const Footer = () => {
                     <div className="flex-grow border-t border-gray-300"></div>
                 </div>
 
-                <div className="flex items-center justify-center gap-x-10 mb-2">
-                    <Facebook strokeWidth={1.5} />
-                    <Twitter />
-                    <Instagram />
+                <div className="flex items-center justify-center gap-x-5 mb-2  ">
+                    <FaFacebookF />
+                    <FaInstagram />
+                    <FaTwitter />
+
                 </div>
 
                 <div className="text-center">
