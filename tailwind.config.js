@@ -7,10 +7,12 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(to right, #009d9e, #00aacb )',
+        'split-gradient': 'linear-gradient(to right, #CCE4FF 50%, #5959C1 50%)',
+      },
+      screens: {
+        'custom': '820px',
       },
     },
   },
   plugins: [],
 }
-
