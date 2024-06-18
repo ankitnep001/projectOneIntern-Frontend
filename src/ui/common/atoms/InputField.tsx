@@ -13,7 +13,7 @@ const InputField: React.FC<IInput> = ({ name, type, placeholder, autocomplete, d
             placeholder={placeholder}
             disabled={disabled}
             autoComplete={autocomplete}
-            className={`w-full mb-2 pl-10 pr-3 py-2 border-2 border-black rounded-md focus:outline-none focus:ring focus:border-blue-500 ${disabled ? 'cursor-not-allowed' : ''}`}
+            className={`w-full text-xs mb-2 pl-10 pr-3 py-2 border-2 border-black rounded-md focus:outline-none   ${disabled ? 'cursor-not-allowed' : ''}`}
 
         />
     )

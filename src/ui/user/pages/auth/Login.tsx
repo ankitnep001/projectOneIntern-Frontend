@@ -13,22 +13,24 @@ const Login = () => {
                 <div className="w-full">
                     {/* Email */}
                     <div className="relative">
-                        <Label name={"email"} label={"Email"} required={true} />
-                        <IoMailUnreadOutline className="absolute left-3 top-[47px] " />
+                        <Label name={"email"} label={"Email"} />
+                        <IoMailUnreadOutline className="absolute left-3 top-[38px] " />
                         <InputField
                             name={"email"}
                             type={"email"}
+                            autocomplete="off"
                             placeholder={"Enter your Email"}
                         />
                     </div>
 
                     {/* Password */}
                     <div className="relative">
-                        <Label name={"password"} label={"Password"} required={true} />
-                        <AiOutlineLock className="absolute left-3 top-[47px]" />
+                        <Label name={"password"} label={"Password"} />
+                        <AiOutlineLock className="absolute left-3 top-[38px]" />
                         <InputField
                             name={"password"}
                             type={"password"}
+                            autocomplete="off"
                             placeholder={"Enter your Password"}
                         />
                     </div>

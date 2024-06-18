@@ -8,7 +8,7 @@ interface ILabel {
 
 const Label: React.FC<ILabel> = ({ name, label, required }) => {
     return (
-        <label htmlFor={name} className="block text-gray-700 font-bold mb-2">
+        <label htmlFor={name} className="block text-sm text-gray-700 font-medium mb-2">
             {label} {required && <RequiredSign />}
         </label>
     )
