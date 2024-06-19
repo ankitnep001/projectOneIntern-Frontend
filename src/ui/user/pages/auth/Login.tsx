@@ -23,14 +23,14 @@ const Login = () => {
           <div className='relative'>
             <Label name={'email'} label={'Email'} />
             <IoMailUnreadOutline className='absolute left-3 top-[38px] ' />
-            <InputField name={'email'} type={'email'} autocomplete='off' placeholder={'Enter your Email'} />
+            <InputField name={'email'} type={'email'} autocomplete='on' placeholder={'Enter your Email'} />
           </div>
 
           {/* Password */}
           <div className='relative'>
             <Label name={'password'} label={'Password'} />
             <AiOutlineLock className='absolute left-3 top-[38px]' />
-            <InputField name={'password'} type={'password'} autocomplete='off' placeholder={'Enter your Password'} />
+            <InputField name={'password'} type={'password'} placeholder={'Enter your Password'} />
           </div>
 
           {/* Remember ME */}

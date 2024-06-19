@@ -28,21 +28,21 @@ const SignUp = () => {
             <div className='relative'>
               <Label name={'firstName'} label={'First Name'} required={true} />
               <FiUser className='absolute left-3 top-[39px] ' />
-              <InputField name={'firstName'} type={'text'} autocomplete='on' placeholder={'Enter your First Name'} />
+              <InputField name={'firstName'} type={'text'} placeholder={'Enter your First Name'} />
             </div>
 
             {/* Middle Name */}
             <div className='relative'>
               <Label name={'middleName'} label={'Middle Name'} />
               <FiUser className='absolute left-3 top-[39px] ' />
-              <InputField name={'middleName'} type={'text'} autocomplete='on' placeholder={'Enter your Middle Name'} />
+              <InputField name={'middleName'} type={'text'} placeholder={'Enter your Middle Name'} />
             </div>
 
             {/* Last Name */}
             <div className='relative'>
               <Label name={'lastName'} label={'Last Name'} required={true} />
               <FiUser className='absolute left-3 top-[39px] ' />
-              <InputField name={'lastName'} type={'text'} autocomplete='on' placeholder={'Enter your Last Name'} />
+              <InputField name={'lastName'} type={'text'} placeholder={'Enter your Last Name'} />
             </div>
           </div>
 
@@ -60,7 +60,6 @@ const SignUp = () => {
               <InputField
                 name={'phoneNumber'}
                 type={'tel'}
-                autocomplete='off'
                 placeholder={'Enter your Mobile Number'}
               />
             </div>
@@ -71,7 +70,7 @@ const SignUp = () => {
             <div className='relative w-full'>
               <Label name={'password'} label={'Password'} required={true} />
               <AiOutlineLock className='absolute left-3 top-[38px]' />
-              <InputField name={'password'} type={'password'} autocomplete='off' placeholder={'Password'} />
+              <InputField name={'password'} type={'password'} placeholder={'Password'} />
             </div>
 
             <div className='relative w-full'>
@@ -80,7 +79,6 @@ const SignUp = () => {
               <InputField
                 name={'confirmPassword'}
                 type={'password'}
-                autocomplete='off'
                 placeholder={'Confirm Password'}
               />
             </div>
