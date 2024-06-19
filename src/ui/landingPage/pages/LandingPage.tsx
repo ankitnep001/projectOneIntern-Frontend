@@ -1,18 +1,12 @@
-import LandingLeft from '@ui/landingPage/molecule/LandingLeft'
-import LandingRight from '@ui/landingPage/molecule/LandingRight'
+import Hero from "@ui/landingPage/organisms/Hero"
+import Services from "@ui/landingPage/organisms/Services"
 
 const LandingPage = () => {
   return (
-    <section className=' mt-2 px-10 h-full '>
-      <div className='flex flex-col md:flex-row justify-center items-center'>
-        <div className='w-full md:w-1/2 p-2'>
-          <LandingLeft />
-        </div>
-        <div className='w-full md:w-2/2 p-2'>
-          <LandingRight />
-        </div>
-      </div>
-    </section>
+    <div>
+      <Hero />
+      <Services />
+    </div>
   )
 }
 

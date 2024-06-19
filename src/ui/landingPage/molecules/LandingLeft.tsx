@@ -3,8 +3,7 @@ const LandingLeft = () => {
     <div className='flex flex-col items-center justify-center  text-center'>
       <div>
         <h1 className='text-2xl md:text-4xl font-bold leading-tight'>
-          A New way to Learn
-          <br />& get Knowledge.
+          Technology is a useful servant but a dangerous master.
         </h1>
       </div>
 

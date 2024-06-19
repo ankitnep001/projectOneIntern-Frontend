@@ -9,7 +9,7 @@ const LandingRight = () => {
 
         return (
           <div key={index} className='flex flex-col md:flex-row items-center justify-center text-black rounded-lg'>
-            <div className='w-full flex justify-center md:justify-start   md:w-1/2'>
+            <div className='w-full flex justify-center md:justify-end   md:w-1/2'>
               <img src={imageUrl} alt={item.image.alt} className='w-52 h-52 object-contain' />
             </div>
             <div className='w-full text-center md:text-left  md:w-2/2 p-6'>
