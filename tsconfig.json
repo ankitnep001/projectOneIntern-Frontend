@@ -2,11 +2,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": [
-      "ES2020",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
     /* Bundler mode */
@@ -23,54 +19,24 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "./src/",
     "composite": true,
-    "types": [
-      "vite/client"
-    ],
+    "types": ["vite/client"],
     "paths": {
-      "@ui/*": [
-        "ui/*"
-      ],
-      "@assets/*": [
-        "assets/*"
-      ],
-      "@regex/*": [
-        "regex/*"
-      ],
-      "@api/*": [
-        "api/*"
-      ],
-      "@type/*": [
-        "types/*"
-      ],
-      "@utils/*": [
-        "utils/*"
-      ],
-      "@config/*": [
-        "config/*"
-      ],
-      "@data/*": [
-        "data/*"
-      ],
-      "@models/*": [
-        "models/*"
-      ],
-      "@functions/*": [
-        "functions/*"
-      ],
-      "@contexts/*": [
-        "contexts/*"
-      ],
-      "@hooks/*": [
-        "hooks/*"
-      ],
-      "@interface/*": [
-        "interface/*"
-      ]
+      "@ui/*": ["ui/*"],
+      "@assets/*": ["assets/*"],
+      "@regex/*": ["regex/*"],
+      "@api/*": ["api/*"],
+      "@type/*": ["types/*"],
+      "@utils/*": ["utils/*"],
+      "@config/*": ["config/*"],
+      "@data/*": ["data/*"],
+      "@models/*": ["models/*"],
+      "@functions/*": ["functions/*"],
+      "@contexts/*": ["contexts/*"],
+      "@hooks/*": ["hooks/*"],
+      "@interface/*": ["interface/*"]
     }
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "references": [
     {
       "path": "./tsconfig.node.json"
