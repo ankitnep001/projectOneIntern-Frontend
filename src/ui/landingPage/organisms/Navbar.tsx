@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center px-10 py-3 bg-slate-900 text-white   '>
+    <nav className='flex justify-between items-center px-10 py-3 bg-[#E7F0FF] '>
+
       <div>
         <Logo />
       </div>
@@ -18,6 +19,7 @@ const Navbar = () => {
           <Button type='button' buttonText='SignUp' />
         </Link>
       </div>
+
     </nav>
   )
 }
