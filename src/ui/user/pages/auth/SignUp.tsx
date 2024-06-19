@@ -3,14 +3,24 @@ import InputField from '@ui/common/atoms/InputField'
 import Label from '@ui/common/atoms/Label'
 import { AiOutlineLock } from 'react-icons/ai'
 import { FiPhone, FiUser } from 'react-icons/fi'
-import { IoMailUnreadOutline } from 'react-icons/io5'
-import { Link } from 'react-router-dom'
+import { IoArrowBack, IoMailUnreadOutline } from 'react-icons/io5'
+import { Link, useNavigate } from 'react-router-dom'
 
 const SignUp = () => {
+  const navigate = useNavigate();
+  const goBack = () => {
+    navigate(-1); // Navigate back one step in history
+  };
+
   return (
     <div className='px-4 py-4  w-[98vw] md:w-[70vw] lg:w-[41vw]'>
-      <form className='  '>
+      <form className=''>
+        <div className='w-fit flex justify-end items-center px-2 mb-2 cursor-pointer hover:bg-[#1a496d] bg-[#255d88] rounded-md text-white ' onClick={goBack}>
+          <IoArrowBack />
+          <Button type={'button'} buttonText={'Go Back'} />
+        </div>
         <h1 className='text-[#255d88] font-bold mb-3'>User Login</h1>
+
         <div className='w-full'>
           {/* Name */}
           <div className=' flex flex-col md:flex-row gap-x-4'>
@@ -23,7 +33,7 @@ const SignUp = () => {
 
             {/* Middle Name */}
             <div className='relative'>
-              <Label name={'middleName'} label={'Middle Name'} required={true} />
+              <Label name={'middleName'} label={'Middle Name'} />
               <FiUser className='absolute left-3 top-[39px] ' />
               <InputField name={'middleName'} type={'text'} autocomplete='on' placeholder={'Enter your Middle Name'} />
             </div>
@@ -88,6 +98,7 @@ const SignUp = () => {
           <span className='text-[#255d88] font-bold'>Login </span>
         </Link>
       </div>
+
     </div>
   )
 }
