@@ -1,20 +1,20 @@
 [
-    {
-        "image": {
-            "url": "steveJobs",
-            "alt": "Steve Jobs"
-        },
-        "quote": {
-            "text": "Everybody in this world should learn to program a computer because it teaches you how to think."
-        }
+  {
+    "image": {
+      "url": "steveJobs",
+      "alt": "Steve Jobs"
     },
-    {
-        "image": {
-            "url": "mark",
-            "alt": "Mark Zuckerberg"
-        },
-        "quote": {
-            "text": "The biggest risk is not taking any risk... In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks."
-        }
+    "quote": {
+      "text": "Everybody in this world should learn to program a computer because it teaches you how to think."
     }
+  },
+  {
+    "image": {
+      "url": "mark",
+      "alt": "Mark Zuckerberg"
+    },
+    "quote": {
+      "text": "The biggest risk is not taking any risk... In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks."
+    }
+  }
 ]
