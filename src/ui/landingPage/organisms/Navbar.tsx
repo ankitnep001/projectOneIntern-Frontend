@@ -15,7 +15,6 @@ const Navbar = () => {
         <Logo />
       </div>
 
-
       <div className='flex items-center gap-x-2'>
         <div className='flex gap-x-2 items-center  '>
           <Link to='/auth/user'>
