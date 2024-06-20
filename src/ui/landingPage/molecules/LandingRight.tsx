@@ -4,7 +4,7 @@ import quotes from '@data/quotes/quotes.json'
 const LandingRight = () => {
   return (
     <div className='grid grid-cols-1 gap-8'>
-      {quotes.map((item, index) => {
+      {quotes?.map((item, index) => {
         const imageUrl = image[item.image.url]
 
         return (
